@@ -104,7 +104,7 @@ export default {
   methods: {
     async onEggClick () {
       try {
-        const data = await this.$axios.$post('http://localhost:8080/api/quest/themap',
+        const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api/quest/themap',
           { name: JSON.parse(localStorage.getItem('username')) })
         this.$router.push(data.next)
       } catch (e) {

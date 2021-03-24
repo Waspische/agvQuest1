@@ -82,7 +82,7 @@ export default {
 
       if (this.$refs.form.validate()) {
         try {
-          const data = await this.$axios.$post('http://localhost:8080/api/quest/rabbit',
+          const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api/quest/rabbit',
             {
               name: this.getUsername(),
               response: this.discordName

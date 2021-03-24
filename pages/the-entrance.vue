@@ -88,7 +88,7 @@ export default {
   methods: {
     async phraseIt () {
       try {
-        const data = await this.$axios.$post('http://localhost:8080/api/quest/theentrance',
+        const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api/quest/theentrance',
           {
             name: JSON.parse(localStorage.getItem('username')),
             response: this.phrase
