@@ -14,16 +14,16 @@
 export default {
   name: 'TheHole',
   mounted () {
-    setTimeout(() => { this.$router.replace('into-the-hole') }, 4000)
+    setTimeout(() => { this.$router.replace('/into-the-hole') }, 4000)
   }
 }
 </script>
 
 <style scoped>
 .hole{
-  font-size: 30.125rem !important;
+  font-size: 25.125rem !important;
   font-weight: 400;
-  line-height: 31rem;
+  line-height: 26rem;
   letter-spacing: 0.0073529412em !important;
   font-family: "Roboto", sans-serif !important;
 }

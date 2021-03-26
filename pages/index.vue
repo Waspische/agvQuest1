@@ -19,7 +19,10 @@
             <code>It's time! It's time! Easter is here and I want my eggs.</code>
           </p>
           <p class="justify">
-            Your walk in the forest just turned into your worst nightmare, the Big Pink Bunny... What happened? You don't know. But he seems to be hungry. You may want to do what he wants.
+            Your walk in the forest just turned into your worst nightmare, the Big Pink Bunny... This world is nothing like reality. You sense magic around you.
+          </p>
+          <p>
+            What happened? You don't know. But he seems to be hungry. You may want to do what he wants.
           </p>
           <p class="justify">
             <code>Oh dear! Oh dear! You shall be too late! Tell me more and jump.</code>

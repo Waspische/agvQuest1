@@ -14,7 +14,7 @@
           </v-card-title>
           <v-card-text>
             <p>
-              You arrive in a large room with a table in the center. You come closer and distinguishes a drawn map. Around you, some weird faces on the walls. You look at them one by one and a detail come to your eyes. It looks like the 1 043rd is messing with you!
+              You arrive in a large room with a table in the center. You come closer and distinguishes a drawn map. Around you, some weird faces on the walls. You look at them one by one and a detail come to your eyes. It looks like the 1,043rd is messing with you!
             </p>
             <p>It comes with a small text <code>The first egg is here, 'In STYLE'. WHAT?! No! On the map obviously.</code></p>
             <p>There is a pink button right above the map but you do not know what it does. </p>
@@ -25,7 +25,7 @@
               large
               @click="zoom"
             >
-              Show me
+              Push the button
             </v-btn>
           </v-card-actions>
         </v-card>

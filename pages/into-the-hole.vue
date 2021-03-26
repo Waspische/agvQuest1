@@ -70,7 +70,7 @@ export default {
   },
   async mounted () {
     try {
-      const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api//quest/thehole1',
+      const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api/quest/thehole1',
         { name: JSON.parse(localStorage.getItem('username')) })
       this.code = data.next
     } catch (e) {
@@ -79,7 +79,7 @@ export default {
   methods: {
     async step2 () {
       try {
-        const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api//quest/thehole2',
+        const data = await this.$axios.$post('https://earth-2-biomes.herokuapp.com/api/quest/thehole2',
           { name: JSON.parse(localStorage.getItem('username')) })
         this.$router.push(data.next)
       } catch (e) {
